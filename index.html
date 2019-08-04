@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>白天不懂夜的黑</title>
+    <!--    css引入-->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/reset.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="#"><img src="dist/img/logo1.svg" alt="RioWeb"></a>
+
+                    <!-- 这里是汉堡式菜单显示隐藏的折叠开关 -->
+                    <!-- data-toggle用于告诉 JavaScript 需要对按钮做什么， data-target指示要切换到哪一个元素。三个带有 .icon-bar 的 <span> 创建汉堡按钮里面的那三根线。 -->
+                    <button type="button" class="hamburger"  id="hamburger-2" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <div class="bottomLine"></div>
+                    <ul class="nav navbar-nav" id="nav_text">
+                        <li><a href="#" >作品库</a></li>
+                        <li><a href="#" >动态</a></li>
+                        <li><a href="#" >新闻</a></li>
+                        <li><a href="#" >关于</a></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+        </nav>
+    <!--        轮播-->
+        <div id="certify">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="dist/img/certify01.png" /><p>Picture information 1</p></div>
+                    <div class="swiper-slide"><img src="dist/img/certify02.png" /><p>Picture information 2</p></div>
+                    <div class="swiper-slide"><img src="dist/img/certify03.png" /><p>Picture information 3</p></div>
+                    <div class="swiper-slide"><img src="dist/img/certify04.png" /><p>Picture information 4</p></div>
+                    <div class="swiper-slide"><img src="dist/img/certify05.png" /><p>Picture information 5</p></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+    <!--    js插件引入-->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/swiper.min.js"></script>
+    <script src="dist/js/rioweb.js"></script>
+
+</html>
